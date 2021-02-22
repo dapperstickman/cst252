@@ -61,12 +61,12 @@ function randomizeName(userName) {
 }
 //Thanks to Wes Modes for complicated code example
 function main() {
-    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+    var userName = window.prompt("Give me your name so we can begin.");
     document.writeln("<style>:root {--textlen: " + userName.length + ";}</style>");
     var sortedName = sortUserName(userName);
     document.writeln("Here's your sorted name: " + sortedName + "</br></br>");
     var randomName = randomizeName(userName);
-    document.writeln("And oh hey, I fixed your name.<br>Your new one is above.");
+    document.writeln("Check this out, I ruined your name.<br>Take this too.");
     document.writeln("<div class='name'>" + randomName + "</div>")
 }
 
