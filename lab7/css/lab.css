@@ -1,0 +1,38 @@
+html {
+  font-family: 'Architects Daughter', cursive;
+  background: gray;
+}
+
+h2 {
+  size: 50px;
+    color: gold;
+
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+body {
+  background-color: tan ;
+  padding: 20px;
+font-family: 'Krona One', sans-serif;
+width: 60%;
+border-radius: 0 25px;
+border: 2px brown solid;
+margin-left: auto;
+margin-top: 100px;
+margin-right: auto;
+box-shadow: 5px 5px 5px 5px brown;
+border: dotted;
+
+}
+img, pre {
+border-radius: 0 25px;
+border: 2px brown solid;
+margin-left: auto;
+
+margin-right: auto;
+box-shadow: 5px 5px 5px 5px brown;
+border: dotted;
+}
