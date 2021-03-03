@@ -10,10 +10,7 @@
 //JavaScript for Web
 //Using Events in JS
 //Acquire name
-function main() {
-    var userName = window.prompt("Give me your name so we can begin.");
-    document.writeln("<style>:root {--textlen: " + userName.length + ";}</style>");
-  }
+
 //attempt at making achanging Title
 var titleEl = document.getElementById("changeme");
 console.log("Heres a title", titleEl);
@@ -25,9 +22,8 @@ var inputEl = document.getElementById("my-input");
 console.log("something else", inputEl);
 
 buttonEl.addEventListener("click", function(){
-  var name = inputEl.value;
+  var nameEl = inputEl.value;
 
-  titleEl.innerText = "Welcome", + name;
-  inputEl.value = "";
+  titleEl.innerHTML = "Welcome", + nameEl;
 })
 //I didn't do well
