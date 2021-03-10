@@ -37,8 +37,4 @@ var t = document.createTextNode("Check the console");      // Create a text node
 para.appendChild(t);                                          // Append the text to <p>
 document.getElementById("output").appendChild(para);
 
-var houseObj = for();
-// output to output div
-newText = "<h3>The Output " + houseObj
-document.getElementById("output").innerHTML = newText;
 })
