@@ -13,7 +13,10 @@
 var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
 
+
+
 for (var i=1; i <=200; i++) {
+   var str = '';
   if(i % 105 == 0) {
     console.log("FizzBuzzBoom");
   } else if(i % 35 == 0) {
@@ -31,6 +34,7 @@ for (var i=1; i <=200; i++) {
   } else {
     console.log(i);
   }
+
 }
 var para = document.createElement("p");                       // Create a <p> node
 var t = document.createTextNode("Check the console");      // Create a text node
