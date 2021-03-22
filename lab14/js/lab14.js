@@ -9,7 +9,7 @@
 //JavaScript for Web
 //Using Conscriptors
 
-
+//create constructor
 function Vehicle(make, model, year, color, extras) {
   this.make = make;
   this.model = model;
@@ -20,7 +20,7 @@ function Vehicle(make, model, year, color, extras) {
     return this.color + " " + this.year + " " + this.make + " " + this.model + " " + this.extras;
   }
 }
-
+//make vehicle
 var vehicles = [];
 
 var newVehicle = new Vehicle("Cannondale", "???", "???", "grayish-silver", "Nice Seat");
@@ -29,7 +29,7 @@ vehicles.push(newVehicle);
 //vehicles.push(new Vehicle("Cannondale", "???", "???", "grayish-silver", "Nice Seat"));
 
 
-
+//out put it
 outputEl = document.getElementById("output");
   for (var i = 0; i<vehicles.length; i++) {
     var newEl = document.createElement("p");
