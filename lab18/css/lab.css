@@ -1,0 +1,14 @@
+html {
+  font-family: 'Architects Daughter', cursive;
+  background: gray;
+}
+
+h2 {
+  size: 50px;
+    color: gold;
+
+}
+a {
+  text-decoration: none;
+  color: white;
+}
