@@ -1,0 +1,14 @@
+html {
+  font-family: 'Krona One', sans-serif;
+  background: gray;
+}
+
+h2 {
+  size: 50px;
+    color: gold;
+
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
